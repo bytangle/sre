@@ -1,7 +1,15 @@
 # SRE Questions
 
-- Add github action workflow so that when a push is made to main branch, it automatically zips and deploy the code to lambda function on aws
-- Setup AWS gateway with the lambda function so we can serve the lambda function via the API gateway
+- Setup dockerfile to run the server
+- Add a test workflow file to execute the test whenever there's a merge with main
+
+- Explain how you'd setup this server to deploy it to AWS ECS cluster
+
+- How do u connect API gateway with aws lambda function?
+
+
+- The project is was once zipped and already deployed on lambda functions
+- complete the deploy-to-lambda-function.yml to deploy this deployment.zip to lambda function (an update) anytime there's merge with main branch (check below the function details)
 
 ### Function Details:
 - ARN: arn:aws:lambda:us-east-1:090086540669:function:sre-metrics
