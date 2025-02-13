@@ -6,3 +6,4 @@
 ### Function Details:
 - ARN: arn:aws:lambda:us-east-1:090086540669:function:sre-metrics
 - Name: sre-metrics
+- Function URL: https://bsjdzw62gvrpgxdr5mm2r3jjqq0sffvx.lambda-url.us-east-1.on.aws/sre-metrics
